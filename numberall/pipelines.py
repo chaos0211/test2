@@ -10,11 +10,11 @@ import time
 
 class NumberallPipeline(object):
     def open_spider(self, spider):
-        self.connect = pymysql.connect(host='rm-uf65163t7ka9v01q0o.mysql.rds.aliyuncs.com',
+        self.connect = pymysql.connect(host='',
                                        port=3306,
                                        database='yigong_db',
-                                       user='dingfang',
-                                       password='bNk6izHcGVWSTOtCGJXP',
+                                       user='',
+                                       password='',
                                        charset='utf8')
         self.cursor = self.connect.cursor()
 
